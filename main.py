@@ -156,7 +156,7 @@ sad = ((yy1 - y1av1)**2 + (yy2 - y2av2)**2 + (yy3 - y3av3)**2 + (yy4 - y4av4)**2
 Fp = sad/sb
 print("d1=", round(d1,2), "d2=", round(d2,2), "d3=", round(d3,2), "d4=", round(d4,2), "d5=", round(sb,2))
 print("Fp=", round(Fp,2))
-print('Ft берем із таблиці 8 рядяк 2 стовпець Ft = 4.5')
+print('Ft  Ft = 4.5')
 Ft=4.5
 if Fp>Ft:
     print("Fp=",round(Fp,2),">Ft",Ft,"Рівняння неадекватно оригіналу")
